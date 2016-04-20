@@ -1,12 +1,12 @@
 # Site settings
 title: shiping.liang
 index_title: Shikher Verma # same as title in index.html file, so that custom description can be set in page.html layout.
-blog_title: Á©Â«Î­
+blog_title: Two light
 header-img: img/home-bg.jpg
 email: icoool.ping@gmail.com
 copyright_name: ShikherVerma
 description: "Online Territory of Shikher Verma"
-baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
+baseurl: /whiteLight #base url is for when the site is not at the root but at some subdirectory.
 url: shikherverma.com #only used in disque comments for now
 github_username:  shikherverma
 facebook_username:  shikherverma1

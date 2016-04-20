@@ -4,7 +4,7 @@ index_title: shiping # same as title in index.html file, so that custom descript
 blog_title: Two light
 header-img: img/home-bg.jpg
 email: icoool.ping@gmail.com
-copyright_name: ShikherVerma
+copyright_name: WhiteLight
 description: "Online Territory of Shikher Verma"
 baseurl: "/whiteLight" #base url is for when the site is not at the root but at some subdirectory.
 url: http://liangsp.github.io/whiteLight #only used in disque comments for now

@@ -6,8 +6,8 @@ header-img: img/home-bg.jpg
 email: icoool.ping@gmail.com
 copyright_name: ShikherVerma
 description: "Online Territory of Shikher Verma"
-baseurl: /whiteLight #base url is for when the site is not at the root but at some subdirectory.
-url: shikherverma.com #only used in disque comments for now
+baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
+url: https://liangsp.github.io #only used in disque comments for now
 github_username:  shikherverma
 facebook_username:  shikherverma1
 email_username:  root@shikherverma.com
@@ -18,7 +18,7 @@ wpm: 180
 markdown: kramdown
 highlighter: rouge
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-port: 8888
+#port: 8888
 permalink: /blog/:title
 
 # jekyll-paginate

@@ -40,8 +40,8 @@ int singleNumber(vector<int>& nums)
 ```
 int singleNumber(vector<int>& nums) 
 {
- 	//特殊情况1 
-	if(nums.size() == 0)
+    //特殊情况1 
+    if(nums.size() == 0)
     {
         return 0;
     }

@@ -8,9 +8,9 @@ copyright_name: WhiteLight
 description: "Online Territory of Shikher Verma"
 baseurl: "/whiteLight" #base url is for when the site is not at the root but at some subdirectory.
 url: http://liangsp.github.io/whiteLight #only used in disque comments for now
-github_username:  shikherverma
-facebook_username:  shikherverma1
-email_username:  root@shikherverma.com
+github_username:  liangsp
+facebook_username:  icoool.ping
+email_username:  icoool.ping@gmail.com
 # used to estimate reading time
 wpm: 180
 

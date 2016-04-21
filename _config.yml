@@ -14,6 +14,8 @@ email_username:  root@shikherverma.com
 # used to estimate reading time
 wpm: 180
 
+encoding: utf-8
+
 # Build settings
 markdown: kramdown
 highlighter: rouge

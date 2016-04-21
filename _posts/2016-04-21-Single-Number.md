@@ -1,19 +1,17 @@
----  
-layout:     post
-title:      "Single Number"
-subtitle:   "leetcode算法"
-date:       2016-04-21 10:35:00
-author:     "shiping liang"
-header-img: "img/posts/exam-bg.jpeg"
-comments: true
-tags: CodeMonkey 
 ---
-##Single Number
-###问题描述
+layout: post
+title: Single Number
+subtitle: leetcode算法
+tags: CodeMonkey
+---
+
+## Single Number  
+
+### 问题描述
 >Given an array of integers, every element appears *twice* except for one. Find that single one.
 **[single-number](https://leetcode.com/problems/single-number/)**  
 
-###解决方案
+### 解决方案
 `思路:将所有的数进行异或，得到的结果就是所求的. 基于x^x=0. 相同为0，不同为1.`
 
 ```
@@ -29,14 +27,14 @@ int singleNumber(vector<int>& nums)
 ```
 
 
-##Single Number II  
+## Single Number II  
 
-###问题描述
+### 问题描述
 
 > Given an array of integers, every element appears *three* times except for one. Find that single one. 
 **[single-number-ii](https://leetcode.com/problems/single-number-ii/)**
 
-###解决方案  
+### 解决方案  
 `思路：对数组进行排序，从左到右进行计算个数.`
 
 ```
@@ -78,8 +76,10 @@ int singleNumber(vector<int>& nums)
     //特殊情况3 最后一个是single number的特殊情况
     return nums.at(nums.size()-1);
 }
-```
-`思路2`
+```  
+
+`思路2`  
+
 ```
 int singleNumber(vector<int>& nums) 
 {
@@ -101,8 +101,10 @@ int singleNumber(vector<int>& nums)
 	}
 	return result;
 }
-```
-`思路3`
+```  
+
+`思路3`  
+
 ```
 int singleNumber(vector<int>& nums) 
 {
